@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Tuladha Jejeg';
-    src: local("ꦲꦤꦕꦫꦏ"),
-         url('TuladhaJejeg_gr.eot'),
-         url('TuladhaJejeg_gr.eot?#iefix') format('embedded-opentype'),
-         url('TuladhaJejeg_gr.woff') format('woff'),
-         url('TuladhaJejeg_gr.ttf') format('truetype');
+    src: url("ꦲꦤꦕꦫꦏ"),
+         url('https://caksup.github.io/nulisaksarajawa/fonts/TuladhaJejeg_gr.eot'),
+         url('https://caksup.github.io/nulisaksarajawa/fonts/TuladhaJejeg_gr.eot?#iefix') format('embedded-opentype'),
+         url('https://caksup.github.io/nulisaksarajawa/fonts/TuladhaJejeg_gr.woff') format('woff'),
+         url('https://caksup.github.io/nulisaksarajawa/fonts/TuladhaJejeg_gr.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
