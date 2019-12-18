@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="jv-java" xml:lang="jv">
+<head>
+ <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+ <meta content="utf-8" http-equiv="encoding">
+ <meta http-equiv="X-UA-Compatible" content="text/html;" />
+ <meta property="fb:admins" content=""/>
+ <title>ꦤꦸꦭꦶꦱ꧀​ꦲꦏ꧀ꦱꦫ​ꦗꦮ | Nulis Aksara Jawa</title>
+ 
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+ 
+ <link rel="stylesheet" href="https://caksup.github.io/nulisaksarajawa/css/bootstrap/4.3.1/bootstrap.min.css">
+ 
+ <link rel="stylesheet" href="https://caksup.github.io/nulisaksarajawa/css/bootstrap/4.3.1/css/caksup-v1.css">
+ 
+ <link rel="stylesheet" href="https://caksup.github.io/nulisaksarajawa/css/naj/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+ <link rel="stylesheet" href="https://caksup.github.io/nulisaksarajawa/css/naj/stylesheet.css" type="text/css" charset="utf-8" />
+</head>
+  <body onload="document.getElementById('inp_txt').focus();">
+ <div id="main_content">
+   <div id="home">
+    <div id="bd" role="main">
+      <h1>Cara termudah untuk menulis Aksara Jawa</h1>
+      <div class="fb-like" data-share="true" data-width="450" data-show-faces="true"></div>
+      <div id="transdiv" class="gb">
+        <h3 style="font-family:Arial">Pratayang <abbr title="Teks yang Anda ketik/kopipas akan muncul pratayangnya di sini.">[?]</abbr></h3>
+     
+        <h3 style="font-family:Arial">Masukkan teks di sini, tekan Enter untuk memasukkan ke textbox utama. <abbr title="Dapat menerima input dalam bahasa Jawa maupun Indonesia"><span style="font-family:Arial; font-size:smaller">[?]</span></abbr></h3>
+        <p>"Nulisa Aksara Jawa" adalah sebuah alat sederhana untuk mengetik aksara Jawa dengan keyboard biasa (QWERTY). Cukup ketikkan kata yang Anda inginkan, dan aksara Jawanya akan langsung muncul.</p>
+        <p><small>Catatan: "e" menghasilkan taling, "x" menghasilkan pepet. <a href="https://jv.wikipedia.org/wiki/Dhiskusi_Panganggo:Bennylin">Berikan masukan!</a></small></p>
+           <div id="transdiv" class="gb"><div id="prev_label"></div></div>
+        <textarea id="inp_txt" class="tb"></textarea>
+        <table width="100%" style="font-family:Arial"><tr><td style="width:50%">
+          <input type="radio" name="mode" value="ketik" checked="checked">Mode Ketik: 'e' = taling, 'x' = pepet <abbr title="Dalam mode ini, Anda bisa mengetik secara normal. Tombol 'e' digunakan untuk menuliskan taling, sementara tombol 'x' digunakan untuk menuliskan pepet"><small>[?]</small></abbr><br>
+          <input type="radio" name="mode" value="kopas">Mode Kopas: 'e' = pepet, 'è'/'é'  = taling <abbr title="Dalam mode ini, Anda bisa kopipas dari artikel yang menggunakan huruf 'e' beraksen (è/é), misalnya dari artikel Wikipedia bahasa Jawa. Anda juga bisa menggunakan mode ini untuk mengetik kata-kata dalam bahasa Indonesia, misalnya, karena mayoritas huruf 'e' dalam bahasa Indonesia (terutama imbuhan), adalah pepet"><small>[?]</small></abbr>
+        </td><td style="width:25%">
+          <input type="radio" name="murda" value="pakai">Mode Murda<br>
+          <input type="radio" name="murda" value="tidak" checked="checked">Mode <s>Murda</s>
+        </td><td style="width:25%">
+          <input type="radio" name="spasi" value="without">Tanpa spasi <abbr title="Dalam mode ini, teks akan diperlakukan tanpa ada spasi sama sekali, meskipun Anda menggunakan spasi. Teks tidak dapat dikonvert kembali dengan spasi."><small>[?]</small></abbr><br>
+          <input type="radio" name="spasi" value="with" checked="checked">Dengan spasi <abbr title="Dalam mode ini, setiap spasi diubah menjadi karakter khusus sehingga dapat ditransliterasi kembali ke Latin dengan spasi."><small>[?]
+
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+  Tooltip with HTML
+</button>
+
+</small></abbr>
+        </td></tr></table><!---->
+        <p>Karakter khusus: ḍ ḍh ṇ ṣ ṭ ṭh <span style="font-family:Noto Sans Javanese, Tuladha Jejeg;">꧁ ꧂ ꧃ ꧄ ꧅ ꧆ ꧊ ꧏ ꦎꦴꦀ (Om/Oṃ/ॐ)</span><br></p>
+      </div>
+      <div id="output" class="gb">
+        <p><strong>You can compose text here, for transliteration type in textbox above.</strong></h3>
+        <form name="formText">
+           <input type="reset" value="reset" />
+         <textarea id="ta" class="main_ta" name="editSrc"></textarea>
+           <input onclick="transliterate(java2latn)" name="buttonConvert" type="button" value="jawa > latin" />
+        </form>
+      </div>
+<script src="https://caksup.github.io/nulisaksarajawa/js/bootstrap/4.3.1/jquery-3.4.1.slim.min.js"></script>
+<script src="https://caksup.github.io/nulisaksarajawa/js/bootstrap/4.3.1/popper.js"></script>
+<script src="https://caksup.github.io/nulisaksarajawa/js/bootstrap/4.3.1/popper.min.js"></script>
+<script src="https://caksup.github.io/nulisaksarajawa/js/bootstrap/4.3.1/bootstrap.min.js"></script>
+<script src="https://caksup.github.io/nulisaksarajawa/js/bootstrap/4.4.1/bootstrap.bundle.min.js"></script>
+
+<script src="https://kit.fontawesome.com/5ca0cd0796.js" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+ <script src="https://jv.wikipedia.org/w/index.php?title=Panganggo:Bennylin/trans.js&action=raw&ctype=text/javascript" type="text/javascript" language="javascript" charset="utf-8"></script>
+ <script src="https://caksup.github.io/nulisaksarajawa/js/naj/easytabs.js" typegerick="text/javascript" charset="utf-8"></script>
+<script src="https://caksup.github.io/nulisaksarajawa/js/naj/transliterator.js" type="text/javascript" language="javascript" charset="utf-8"></script>
+ <script src="https://caksup.github.io/nulisaksarajawa/js/naj/script.js" type="text/javascript" language="javascript" charset="utf-8"></script>
+ 
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ 
+ <script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+   $('#container').easyTabs({defaultContent:1});
+  });
+ </script>
+	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+</body>
+</html>
