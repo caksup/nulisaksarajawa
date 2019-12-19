@@ -12,80 +12,156 @@
 	
   <link rel="stylesheet" href="https://caksup.github.io/nulisaksarajawa/css/naj/specimen_stylesheet.css" type="text/css" charset="utf-8" />
  <link rel="stylesheet" href="https://caksup.github.io/nulisaksarajawa/css/naj/stylesheet.css" type="text/css" charset="utf-8" />
+ 
+ <style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #28a745;
+   color: white;
+   text-align: center;
+   text-top: 3px; 
+   High: 100%; 
+}
+.sticky-top{
+	Position: fixed; 
+	width: 100%;
+	}
+	
+.nav-tabs > li.active > a {
+  color: #28a745;
+  font-size: 16px;
+  background: #28a745;
+}
+.nav-tabs > li > a {
+  color: white;
+  background: #28a745;
+}
+.nav-tabs {
+	width: 100%;
+	}
+.container {
+  display: flex; /* or inline-flex */
+}
+.item {
+  flex-shrink: 1; /* default 1 */
+}
+</style>
 </head>
+
   <body onload="document.getElementById('inp_txt').focus();">
- <div id="main_content">
+  	
+<nav class="navbar sticky-top navbar-light bg-success">
+  <a class="navbar-brand" href="#"> <b>Nulis Aksara Jawa</b></a>
+   <!-- M2 
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalLong2">
+  <i class="fa fa-info-circle fa-xs"></i>
+</button-->
+
+  <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#info-apps">
+    <i class="fa fa-info" style="color:white"></i>
+  </button></nav>
+
+ <!--<div id="main_content">
    <div id="home">
-    <div id="bd" role="main">
-      <h1>Cara termudah untuk menulis Aksara Jawa</h1>
-      <div class="fb-like" data-share="true" data-width="450" data-show-faces="true"></div>
-      <div id="transdiv" class="gb">
-        <h3 style="font-family:Arial">Pratayang <abbr title="Teks yang Anda ketik/kopipas akan muncul pratayangnya di sini.">[?]</abbr></h3>
+  <div id="bd" role="main"-->
+
+    
+      <br><br><h1>Cara termudah untuk menulis Aksara Jawa</h1>
      
+      <!--div id="transdiv" class="gb"-->
+        
         <h3 style="font-family:Arial">Masukkan teks di sini, tekan Enter untuk memasukkan ke textbox utama. <abbr title="Dapat menerima input dalam bahasa Jawa maupun Indonesia"><span style="font-family:Arial; font-size:smaller">[?]</span></abbr></h3>
         <p>"Nulisa Aksara Jawa" adalah sebuah alat sederhana untuk mengetik aksara Jawa dengan keyboard biasa (QWERTY). Cukup ketikkan kata yang Anda inginkan, dan aksara Jawanya akan langsung muncul.</p>
         <p><small>Catatan: "e" menghasilkan taling, "x" menghasilkan pepet. <a href="https://jv.wikipedia.org/wiki/Dhiskusi_Panganggo:Bennylin">Berikan masukan!</a></small></p>
-           <div id="transdiv" class="gb"><div id="prev_label"></div></div>
-        <textarea id="inp_txt" class="tb"></textarea>
-        <table width="100%" style="font-family:Arial"><tr><td style="width:50%">
-          <input type="radio" name="mode" value="ketik" checked="checked">Mode Ketik: 'e' = taling, 'x' = pepet <abbr title="Dalam mode ini, Anda bisa mengetik secara normal. Tombol 'e' digunakan untuk menuliskan taling, sementara tombol 'x' digunakan untuk menuliskan pepet"><small>[?]</small></abbr><br>
-          <input type="radio" name="mode" value="kopas">Mode Kopas: 'e' = pepet, 'è'/'é'  = taling <abbr title="Dalam mode ini, Anda bisa kopipas dari artikel yang menggunakan huruf 'e' beraksen (è/é), misalnya dari artikel Wikipedia bahasa Jawa. Anda juga bisa menggunakan mode ini untuk mengetik kata-kata dalam bahasa Indonesia, misalnya, karena mayoritas huruf 'e' dalam bahasa Indonesia (terutama imbuhan), adalah pepet"><small>[?]</small></abbr>
-        </td><td style="width:25%">
-          <input type="radio" name="murda" value="pakai">Mode Murda<br>
-          <input type="radio" name="murda" value="tidak" checked="checked">Mode <s>Murda</s>
-        </td><td style="width:25%">
-          <input type="radio" name="spasi" value="without">Tanpa spasi <abbr title="Dalam mode ini, teks akan diperlakukan tanpa ada spasi sama sekali, meskipun Anda menggunakan spasi. Teks tidak dapat dikonvert kembali dengan spasi."><small>[?]</small></abbr><br>
-          <input type="radio" name="spasi" value="with" checked="checked">Dengan spasi <abbr title="Dalam mode ini, setiap spasi diubah menjadi karakter khusus sehingga dapat ditransliterasi kembali ke Latin dengan spasi."><small>[?]
+        
+        <h3 style="font-family:Arial">Pratayang <!-- Modal Mode ketik --><a type="url" data-toggle="modal" data-target="#pratayang">
+  <i class="fa fa-question-circle" style="color:#28a745"></i></a></h3>
+           <div id="transdiv" class="gb">
 
-<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
-  Tooltip with HTML
-</button>
-
-</small></abbr>
-        </td></tr></table><!---->
-        <p>Karakter khusus: ḍ ḍh ṇ ṣ ṭ ṭh <span style="font-family:Noto Sans Javanese, Tuladha Jejeg;">꧁ ꧂ ꧃ ꧄ ꧅ ꧆ ꧊ ꧏ ꦎꦴꦀ (Om/Oṃ/ॐ)</span><br></p>
+<div id="prev_label"></div></div>
+           
+<textarea class="form-control" id="inp_txt" rows="3"></textarea>
+           </div>
+           <div class="table-responsive"><table class="table table-sm">
+	<tr>
+		<td><!-- Modal Mode ketik -->
+<input type="radio" name="mode" value="ketik" checked="checked"> <small>Mode Ketik</small> <a type="url" data-toggle="modal" data-target="#exampleModalLong">
+  <i class="fa fa-question-circle" style="color:#28a745"></i></a></td>
+      <td><input type="radio" name="murda" value="pakai">Murda <a type="url" data-toggle="modal" data-target="#exampleModalLong">
+  <i class="fa fa-question-circle" style="color:#28a745"></i></a>
+          </td>
+      <td><input type="radio" name="spasi" value="without">Tanpa spasi <a type="url" data-toggle="modal" data-target="#exampleModalLong">
+  <i class="fa fa-question-circle" style="color:#28a745"></i></a><abbr title="Dalam mode ini, teks akan diperlakukan tanpa ada spasi sama sekali, meskipun Anda menggunakan spasi. Teks tidak dapat dikonvert kembali dengan spasi."><small></small></abbr></td>
+      </tr>
+      <tr>
+      
+      <td><!-- M2 -->
+<input type="radio" name="mode" value="kopas"> <small>ModeTempel</small> <a type="url" data-toggle="modal" data-target="#exampleModalLong2"><i class="fa fa-question-circle" style="color:#28a745"></i></a></td>
+      <td><input type="radio" name="murda" value="tidak" checked="checked">Mode <s>Murda</s> <a type="url" data-toggle="modal" data-target="#exampleModalLong">
+  <i class="fa fa-question-circle" style="color:#28a745"></i></a></td>
+      <td>
+          <input type="radio" name="spasi" value="with" checked="checked">Dengan spasi <a type="url" data-toggle="modal" data-target="#exampleModalLong">
+  <i class="fa fa-question-circle" style="color:#28a745"></i></a><abbr title="Dalam mode ini, setiap spasi diubah menjadi karakter khusus sehingga dapat ditransliterasi kembali ke Latin dengan spasi."><small></td>
+      </tr>
+      </table>
       </div>
+<br>
+ 
+  
+      <!--  <textarea id="inp_txt" class="tb"></textarea-->
+
+
+
+        
+          
+        
+          
+        <!---->
+        <p>Karakter khusus: ḍ ḍh ṇ ṣ ṭ ṭh <span style="font-family:Noto Sans Javanese, Tuladha Jejeg;">꧁ ꧂ ꧃ ꧄ ꧅ ꧆ ꧊ ꧏ ꦎꦴꦀ (Om/Oṃ/ॐ)</span><br></p>
+      
       <div id="output" class="gb">
         <p><strong>You can compose text here, for transliteration type in textbox above.</strong></h3>
         <form name="formText">
            <input type="reset" value="reset" />
          <textarea id="ta" class="main_ta" name="editSrc"></textarea>
-           <input onclick="transliterate(java2latn)" name="buttonConvert" type="button" value="jawa > latin" />
+           <!--button onclick="transliterate(java2latn)" name="buttonConvert" type="button" value="jawa > latin" /></button-->
+           <button type="button" class="btn btn-success btn-sm" onclick="transliterate(java2latn)" name="buttonConvert"> <i class="fa fa-refresh"></i> Jawa > Latin</button>
+
         </form>
       </div>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-  Launch demo modal
-</button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+
+<!-- m pratayang--><div class="modal fade" id="pratayang" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-question-circle fa-lg" style="color:#28a745"></i> Apa itu Pratayang?</h5></div><div class="modal-body">
+Teks yang Anda ketik atau salin & tempel akan tampil di kotak pratayang.
+</div><div class="modal-footer"><button type="button" class="btn btn-success" data-dismiss="modal">Ok</button></div></div></div></div>
+
+<!-- Mode Ketik --><div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="exampleModalLongTitle">Mode Ketik</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body">Dalam mode ini, Anda bisa mengetik secara normal. Tombol 'e' digunakan untuk menuliskan taling, sementara tombol 'x' digunakan untuk menuliskan pepet</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button></div></div></div></div>
+<!-- Modal mode tempel --><div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="exampleModalLongTitle">Mode Tempel</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body">Dalam mode ini, Anda bisa kopipas dari artikel yang menggunakan huruf 'e' beraksen (è/é), misalnya dari artikel Wikipedia bahasa Jawa. Anda juga bisa menggunakan mode ini untuk mengetik kata-kata dalam bahasa Indonesia, misalnya, karena mayoritas huruf 'e' dalam bahasa Indonesia (terutama imbuhan), adalah pepet</div><div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button></div></div></div></div>
+<!-- info apps -->
+<div class="modal fade" id="info-apps" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-info-circle fa-lg" style="color:#28a745"></i> Informasi Aplikasi</h5>
       </div>
       <div class="modal-body">
-        ...
+     <b>  Release: </b><br>
+      Versi 1.0 / 12 Desember 2019<br>
+      	Versi 1.1<br>
+      	Versi 1.2<br>
+      	Versi 1.3<br>
+      	Versi 1.4<br>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-success" data-dismiss="modal">Ok</button>
+        
       </div>
     </div>
   </div>
 </div>
-	   <div class="modal-body">
-  <h5>Popover in a modal</h5>
-  <p>This <a href="#" role="button" class="btn btn-secondary popover-test" title="Popover title" data-content="Popover body content is set in this attribute.">button</a> triggers a popover on click.</p>
-  <hr>
-  <h5>Tooltips in a modal</h5>
-  <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
-</div>
-	   
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://caksup.github.io/nulisaksarajawa/js/bootstrap/4.4.1/bootstrap.min.js"></script>
