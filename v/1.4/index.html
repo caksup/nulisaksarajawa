@@ -298,6 +298,9 @@ Teks yang Anda ketik atau salin & tempel akan tampil di kotak pratayang.</div><d
     </div>
   </div>
 </div>
+<span class='post-view' expr:data-id='data:post.id'><i class='fa fa-eye'/> 
+<span class='view-load' id='postviews'>0</span> Viewers
+</span>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://caksup.github.io/nulisaksarajawa/js/bootstrap/4.4.1/bootstrap.min.js"></script>
@@ -371,5 +374,10 @@ window.onload=function(){
 // Initialize Textarea
 $('.textarea-autosize').textareaAutoSize();
 </script>
+<script src='https://cdn.firebase.com/js/client/2.3.2/firebase.js' type='text/javascript'></script>
+<script type='text/javascript'>//<![CDATA[
+// View counter
+$.each($(".post-view[data-id]"),function(c,f){var b=$(f).parent().find("#postviews").addClass("view-load"),d=new Firebase("https://caksupconnect.firebaseio.com/pages/id/"+$(f).attr("data-id"));d.once("value",function(e){var h=e.val(),g=!1;null==h&&(h={},h.value=0,h.url=window.location.href,h.id=$(f).attr("data-id"),g=!0),b.removeClass("view-load").text(h.value),h.value++,"/"!=window.location.pathname&&(g?d.set(h):d.child("value").set(h.value))})});
+//]]></script>
 </body>
 </html>
