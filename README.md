@@ -1,6 +1,8 @@
 # nulisakasarajawa
 Hanacaraka
 
+[![HitCount](http://hits.dwyl.io/caksup/caksup/nulisaksarajawa.svg)](http://hits.dwyl.io/caksup/caksup/nulisaksarajawa)
+
 - https://caksup.github.io/nulisaksarajawa/v/1.2
 - https://caksup.github.io/nulisaksarajawa/v/1.3
 
