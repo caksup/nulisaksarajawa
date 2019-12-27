@@ -165,9 +165,60 @@ textarea.textarea-autosize.form-control-sm {
     <button type="reset" class="btn btn-danger btn-sm" value="reset"> <i class="fa fa-trash"></i> Hapus</button></div>
         </form>
       </div>
-      <hr>
-      	<div class="fb-comments" data-href="https://caksup.github.io" data-width="" data-numposts="10"></div>
-      <hr>
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#fb" role="tab" aria-controls="home" aria-selected="true">Facebook</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#disqus" role="tab" aria-controls="profile" aria-selected="false">Disqus</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#bawkbox" role="tab" aria-controls="contact" aria-selected="false">Bawkbox</a>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+<div class="tab-pane fade show active" id="fb" role="tabpanel" aria-labelledby="home-tab">
+<div class="fb-comments" data-href="https://caksup.github.io" data-width="" data-numposts="10">
+</div>
+</div>
+
+<div class="tab-pane fade" id="disqus" role="tabpanel" aria-labelledby="profile-tab">
+<div id="disqus_thread">
+</div>
+<script>
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://kaksup.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Bawkbox
+<br><div class="progress"> <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div> </div>
+</div>
+</div>
+
+
+
+
+
+
+
+      	<hr>
 <div class="trt"> <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
 <!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
@@ -350,5 +401,6 @@ window.onload=function(){
 // Initialize Textarea
 $('.textarea-autosize').textareaAutoSize();
 </script>
+<script id="dsq-count-scr" src="//kaksup.disqus.com/count.js" async></script>
 </body>
 </html>
