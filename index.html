@@ -23,7 +23,7 @@ body {
 h1 {
     position: relative;
     color: rgba(0, 0, 0, .3);
-    font-size: 5em
+    font-size: 1em
 }
 h1:before {
     content: attr(data-text);
@@ -32,7 +32,7 @@ h1:before {
     max-width: 7em;
     white-space: nowrap;
     color: #fff;
-    animation: loading 8s linear;
+    animation: loading 10s linear;
 }
 @keyframes loading {
     0% {
@@ -48,13 +48,13 @@ h1:before {
 <h1 align="center" data-text="Memuat Halaman...">Memuat Halaman...</h1>
 
 <h3 align="center">
-  <span id="countdown">5</span> detik
+  <span id="countdown">10</span> detik
 </h3>
 <!-- JavaScript part -->
 <script type="text/javascript">
     
     // Total seconds to wait
-    var seconds = 5;
+    var seconds = 10;
     
     function countdown() {
         seconds = seconds - 1;
