@@ -2,164 +2,76 @@
  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="jv-java" xml:lang="jv">
 <head>
+<!-- Required meta tags -->
  <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
  <meta content="utf-8" http-equiv="encoding">
  <meta http-equiv="X-UA-Compatible" content="text/html;" />
  <meta property="fb:admins" content=""/>
- <title>Nulis Aksara Jawa</title>
- <!--css -->
- <link rel="stylesheet" href="https://caksup.github.io/nulisaksarajawa/css/bootstrap/4.3.1/bootstrap.min.css">
- <link rel="stylesheet" href="https://caksup.github.io/nulisaksarajawa/css/bootstrap/4.3.1/css/caksup-v1.css">
- <link rel="stylesheet" href="https://caksup.github.io/nulisaksarajawa/css/naj /specimen_stylesheet.css" type="text/css" charset="utf-8" />
- <link rel="stylesheet" href="https://caksup.github.io/nulisaksarajawa/css/naj /stylesheet.css" type="text/css" charset="utf-8" />
+ <title>ꦤꦸꦭꦶꦱ꧀​ꦲꦏ꧀ꦱꦫ​ꦗꦮ | Nulis Aksara Jawa</title>
+<link rel="stylesheet" href="https://caksup.github.io/nulisaksarajawa/css/bootstrap/4.4.1/bootstrap.min.css">
+<link rel="stylesheet" href="https://caksup.github.io/nulisaksarajawa/css/caksup/1.0/caksup-style-v1.0.css">
+	
+  <link rel="stylesheet" href="https://caksup.github.io/nulisaksarajawa/css/naj/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+ <link rel="stylesheet" href="https://caksup.github.io/nulisaksarajawa/css/naj/stylesheet.css" type="text/css" charset="utf-8" />
  
- <script src="https://kit.fontawesome.com/5ca0cd0796.js" crossorigin="anonymous"></script>
- <script src="https://caksup.github.io/nulisaksarajawa/js/naj/jquery.min.js" type="text/javascript" charset="utf-8"></script>
- <script src="https://caksup.github.io/nulisaksarajawa/js/naj/easytabs.js" typegerick="text/javascript" charset="utf-8"></script>
- <script src="http://jv.wikipedia.org/w/index.php?title=Panganggo:Bennylin/trans.js&amp;action=raw&amp;ctype=text/javascript" type="text/javascript" language="javascript" charset="utf-8"></script>
- <script src="https://caksup.github.io/nulisaksarajawa/js/naj/transliterator.js" type="text/javascript" language="javascript" charset="utf-8"></script>
- <script src="https://caksup.github.io/nulisaksarajawa/js/naj/script.js" type="text/javascript" language="javascript" charset="utf-8"></script>
- <script type="text/javascript" charset="utf-8">
-  $(document).ready(function() {
-   $('#container').easyTabs({defaultContent:1});
-  });
- </script>
-<style>
-.jancuk{
-    High: 100%;
-    width:100%;
+ <style>
+body {
+    background: #28a745;
+    font-family: sans-serif;
 }
-.footer {
-   position: fixed;
-   left: 0px;
-   right: 0px;
-   bottom: 0px;
-   width: 100%;
-   background-color: #28a745;
-   color: white;
-   text-align: center;
-   High: 100%; 
-   padding-top:1px;
-   font-size:0.1em;
-   text-indent:2em;
-   text-bottom :5px;
+h1 {
+    position: relative;
+    color: rgba(0, 0, 0, .3);
+    font-size: 5em
 }
-.sticky-top{
-    Position: fixed; 
-    width: 100%;
+h1:before {
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    max-width: 7em;
+    white-space: nowrap;
+    color: #fff;
+    animation: loading 8s linear;
+}
+@keyframes loading {
+    0% {
+        max-width: 0;
     }
-nav{
-    Position:center;
 }
-.nav-tabs > li.active > a {
-  color: #28a745;
-  font-size: 16px;
-  background: #28a745;
-}
-.nav-tabs > li > a {
-  color: white;
-  background: #28a745;
-}
-.nav-tabs {
-    width: 100%;
-    }
 </style>
 </head>
+
   <body onload="document.getElementById('inp_txt').focus();">
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '',
-      xfbml      : true,
-      version    : 'v2.2'
-    });
-  };
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
+<br>
+
+<h1 align="center" data-text="Memuat Halaman...">Memuat Halaman...</h1>
+
+<h3 align="center">
+  <span id="countdown">5</span> detik
+</h3>
+<!-- JavaScript part -->
+<script type="text/javascript">
+    
+    // Total seconds to wait
+    var seconds = 5;
+    
+    function countdown() {
+        seconds = seconds - 1;
+        if (seconds < 0) {
+            // Chnage your redirection link here
+            window.location = "https://caksup.github.io/nulisaksarajawa/v/1.4/index.html";
+        } else {
+            // Update remaining seconds
+            document.getElementById("countdown").innerHTML = seconds;
+            // Count down using javascript
+            window.setTimeout("countdown()", 1000);
+        }
+    }
+    
+    // Run countdown function
+    countdown();
+    
 </script>
-
-<!-- start  navbar -->
-    <nav class="navbar sticky-top  navbar-light bg-success">
-  <a class="navbar-brand" href="#">   <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-center" alt=""> <b>Nulis Aksara Jawa Online</b></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle na vigation">
-    <span class="navbar-toggler-icon"></span> </button>
-<!--
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div> -->
-</nav>
-
-<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-    <div class="container text-center">
-      <small>Copyright &copy; CAK SUP<br></small>
-    </div>
-  </footer>
-<ul class="nav nav-tabs" id="myTab" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fa fa-home"></i> Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="userguide-tab" data-toggle="tab" href="#userguide" role="tab" aria-controls="userguide" aria-selected="false"><i class="fa fa-file-text"></i> Features</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="information-tab" data-toggle="tab" href="#information" role="tab" aria-controls="information" aria-selected="false"><i class="fa fa-question-circle"></i> Help</a>
-  </li>
-   <li class="nav-item">
-    <a class="nav-link" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false"><i class="fa fa-list"></i> About
-</a>
-  </li>
-</ul>
-<!-- ## HOME ## -->
-<div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-<nav class="navbar-dark bg-success">
- 
- <!-- Navbar content -->
- <h1><center>Selamat Datang!</center></h1>
-
-<!-- ## start ## -->
-    <br>
-</nav>
-   <br>
-<a href="https://caksup.github.io/nulisaksarajawa/versi-1.0" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Versi 1.0</a>
-<a href="https://caksup.github.io/nulisaksarajawa/versi-1.1" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Versi 1.1</a>
-       <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-    <div class="container text-center">
-    </div>
-  </footer>
-<script src="https://caksup.github.io/nulisaksarajawa/js/bootstrap/4.3.1/jquery-3.4.1.slim.min.js"></script>
-<script src="https://caksup.github.io/nulisaksarajawa/js/bootstrap/4.3.1/popper.min.js"></script>
-<script src="https://caksup.github.io/nulisaksarajawa/js/bootstrap/4.3.1/bootstrap.min.js"></script>
 </body>
 </html>
