@@ -3,11 +3,13 @@ Hanacaraka
 
 [![HitCount](http://hits.dwyl.io/caksup/caksup/nulisaksarajawa.svg)](http://hits.dwyl.io/caksup/caksup/nulisaksarajawa)
 
-- https://caksup.github.io/nulisaksarajawa/v/1.2
-- https://caksup.github.io/nulisaksarajawa/v/1.3
 
-1. https://caksup.github.io/nulisaksarajawa/
-2. https://caksup.github.io/nulisaksarajawa/versi-1.0
-3. https://caksup.github.io/nulisaksarajawa/versi-1.1
-4. https://caksup.github.io/nulisaksarajawa/versi-1.2
-5. https://caksup.github.io/nulisaksarajawa/versi-1.3
+- Changelog
+Versi 1.0
+Versi 1.1
+Versi 1.2
+Versi 1.3
+Versi 1.4
+Versi 1.5
+
+>> https://caksup.github.io/nulisaksarajawa
