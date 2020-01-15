@@ -1,4 +1,3 @@
-<script type="text/javascript">
 window.onload = function(){
     document.body.innerHTML = 
         '<li><a href="#" class="menulink">text</a></li>'
