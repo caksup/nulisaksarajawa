@@ -1,0 +1,69 @@
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #28a745;
+   color: white;
+   text-align: center;
+   text-top: 3px; 
+   High: 100%; 
+}
+.sticky-top{
+	Position: fixed; 
+	width: 100%;
+	}
+.nav-tabs > li.active > a {
+  color: #28a745;
+  font-size: 16px;
+  background: #28a745;
+}
+.nav-tabs > li > a {
+  color: white;
+  background: #28a745;
+}
+.nav-tabs {
+	width: 100%;
+	}
+.container {
+  display: flex; /* or inline-flex */
+}
+.item {
+  flex-shrink: 1; /* default 1 */
+}
+/* sweetalert */
+
+#input{
+    margin-top:30px;
+    height:30px;
+    width:200px;
+   /* border-radius:5px;*/
+    border-radius-right:none;
+    border:1px solid black;
+    border-right:none;
+}
+#btnx{
+    height:30px;
+    background-color:white;
+    border:1px solid black;
+    border-left:none;
+    margin-left:-5px;
+}
+/* teks rata tengah */
+.trt {
+    text-align:center
+}
+textarea.textarea-autosize {
+  height: 2.25rem;
+  min-height: 2.25rem;
+  resize: none;
+  overflow-y:hidden;
+}
+textarea.textarea-autosize.form-control-lg {
+  height: 3.75rem;
+  min-height: 3.75rem;
+}
+textarea.textarea-autosize.form-control-sm {
+  height: 2rem;
+  min-height: 2rem;
+}
