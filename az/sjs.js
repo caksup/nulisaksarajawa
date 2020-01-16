@@ -6,8 +6,8 @@ document.write('<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" i
 '<script src="https://unpkg.com/sweetalert2@7.0.6/dist/sweetalert2.all.js"></script>' +
 '<script src="https://kit.fontawesome.com/5ca0cd0796.js" crossorigin="anonymous"></script>' +
 '<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>' +
-'<script src="https://jv.wikipedia.org/w/index.php?title=Panganggo:Bennylin/trans.js&action=raw&ctype=text/javascript" type="text/javascript" language="javascript" charset="utf-8"></script>
-'<script src="https://caksup.github.io/nulisaksarajawa/js/naj/easytabs.js" typegerick="text/javascript" charset="utf-8"></script>
-'<script src="https://caksup.github.io/nulisaksarajawa/js/naj/transliterator.js" type="text/javascript" language="javascript" charset="utf-8"></script>
-'<script src="https://caksup.github.io/nulisaksarajawa/js/naj/script.js" type="text/javascript" language="javascript" charset="utf-8"></script>
+'<script src="https://jv.wikipedia.org/w/index.php?title=Panganggo:Bennylin/trans.js&action=raw&ctype=text/javascript" type="text/javascript" language="javascript" charset="utf-8"></script>' +
+'<script src="https://caksup.github.io/nulisaksarajawa/js/naj/easytabs.js" typegerick="text/javascript" charset="utf-8"></script>' +
+'<script src="https://caksup.github.io/nulisaksarajawa/js/naj/transliterator.js" type="text/javascript" language="javascript" charset="utf-8"></script>' +
+'<script src="https://caksup.github.io/nulisaksarajawa/js/naj/script.js" type="text/javascript" language="javascript" charset="utf-8"></script>' +
 '<script id="dsq-count-scr" src="//kaksup.disqus.com/count.js" async></script>');
