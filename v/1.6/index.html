@@ -1,0 +1,1146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="jv-java" xml:lang="jv">
+  <head>
+    <!-- #Jancuk Wes Versi 1.5 17/01/2020 @palembang-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta http-equiv="X-UA-Compatible" content="text/html;" />
+    <meta property="fb:admins" content=""/>
+    <title>ꦤꦸꦭꦶꦱ꧀ꦲ</title>
+    <script type="text/javascript">
+      <!-- #Jancuk Gayane -->
+      
+      <!--
+      
+      document.write(unescape('%3c%73%63%72%69%70%74%20%74%79%70%65%3d%27%74%65%78%74%2f%6a%61%76%61%73%63%72%69%70%74%27%20%73%72%63%3d%27%68%74%74%70%73%3a%2f%2f%63%61%6b%73%75%70%2e%67%69%74%68%75%62%2e%69%6f%2f%6e%75%6c%69%73%61%6b%73%61%72%61%6a%61%77%61%2f%61%7a%2f%63%73%73%2e%6a%73%27%3e%3c%2f%73%63%72%69%70%74%3e'));
+      
+      //-->
+      
+    </script>
+  </head>
+  <body onload="document.getElementById('inp_txt').focus();">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v5.0&appId=945540635810224&autoLogAppEvents=1"></script>
+    <nav class="navbar sticky-top navbar-light bg-success">
+      <a class="navbar-brand" href="#"><img src="https://caksup.github.io/nulisaksarajawa/assets/images/nulisaksarajawa_logoanimasi.gif" width="30" height="30" class="d-inline-block align-top" alt="Nulis Aksara Jawa"></a>
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"><button type="button" class="btn btn-warning" data-target="#developer" data-toggle="modal"><i class="fa fa-code fa-sm" style="color:white"></i></button>
+        <button type="button" class="btn btn-dark" data-target="#changelog" data-toggle="modal"><i class="fa fa-question-circle fa-sm" style="color:white"></i></button>
+        <button type="button" class="btn btn-danger" data-target="#changelog" data-toggle="modal"><i class="fa fa-box fa-sm" style="color:white"></i></button>
+        <button type="button" class="btn btn-primary" data-target="#info-apps" data-toggle="modal"><i class="fa fa-info-circle fa-sm" style="color:white"></i></button>
+        <button type="button" class="btn btn-danger" data-target="#ruangobrol" data-toggle="modal"><i class="fa fa-comment fa-sm" style="color:white"></i></button>
+      </div>
+    </nav>
+    <br><br><br><br><br>
+    <div class="trt">
+      <h2>Nulis Aksara Jawa Online!</h2>
+    </div>
+    <hr>
+    <div class="container">
+      <h3 style="font-family:Arial">
+        Pratayang <!-- Pratayang --><a type="url" data-toggle="modal" data-target="#pratayang">
+        <i class="fa fa-question-circle" style="color:#28a745"></i></a>
+      </h3>
+    </div>
+    <div class="container" rows="3">
+      <div class="table-responsive">
+        <table class="table">
+          <td>
+          <tr class="bg-success">
+            <div id="prev_label"></div>
+          </tr>
+          </td>
+        </table>
+      </div>
+    </div>
+    <div class="container">
+      <textarea class="form-control form-control-sm textarea-autosize" id="inp_txt" rows="2" placeholder="Masukkan teks disini..."></textarea>
+    </div>
+    </div>
+    <!--collapse settings-->
+    <div class="container">
+      <p><a data-toggle="collapse" href="#csets" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-gear" style="color:#28a745"></i></a>
+      </p>
+      <div class="collapse" id="csets">
+        <div class="card text-center">
+          <div class="card-header">
+            Pengaturan Mode Tulis :
+          </div>
+          <div class="card card-body">
+            <table class="table table-sm">
+              <tr>
+                <td>
+                  <!-- Modal Mode ketik -->
+                  <input type="radio" name="mode" value="ketik" checked="checked"> <small> Ketik</small> <a type="url" data-toggle="modal" data-target="#mode_ketik">
+                  <i class="fa fa-question-circle" style="color:#28a745"></i></a>
+                </td>
+                <td><input type="radio" name="murda" value="pakai">  Murda <a type="url" data-toggle="modal" data-target="#mode_murda">
+                  <i class="fa fa-question-circle" style="color:#28a745"></i></a>
+                </td>
+                <td><input type="radio" name="spasi" value="without"> <del>Spasi</del> <a type="url" data-toggle="modal" data-target="#mode_ospasi">
+                  <i class="fa fa-question-circle" style="color:#28a745"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <!-- M2 -->
+                  <input type="radio" name="mode" value="kopas"> <small> Tempel</small> <a type="url" data-toggle="modal" data-target="#mode_tempel"><i class="fa fa-question-circle" style="color:#28a745"></i></a>
+                </td>
+                <td><input type="radio" name="murda" value="tidak" checked="checked"> <s>Murda</s> <a type="url" data-toggle="modal" data-target="#mode_omurda">
+                  <i class="fa fa-question-circle" style="color:#28a745"></i></a>
+                </td>
+                <td>
+                  <input type="radio" name="spasi" value="with" checked="checked"> Spasi <a type="url" data-toggle="modal" data-target="#mode_spasi">
+                  <i class="fa fa-question-circle" style="color:#28a745"></i></a><abbr title="Dalam mode ini, setiap spasi diubah menjadi karakter khusus sehingga dapat ditransliterasi kembali ke Latin dengan spasi."><small>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="table-responsive">
+    </div>
+    <!--collapse karakter-->
+    <div class="container">
+      <p><a data-toggle="collapse" href="#kk" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-keyboard" style="color:#28a745"></i></a>
+      </p>
+      <div class="collapse" id="kk">
+        <div class="card text-center">
+          <div class="card-header">
+            Karakter Khusus
+          </div>
+          <div class="card card-body">
+            ḍ ḍh ṇ ṣ ṭ ṭh <br><span style="font-family:Noto Sans Javanese, Tuladha Jejeg;"><br>꧁ ꧂ ꧃ ꧄ ꧅ ꧆ ꧊ ꧏ ꦎꦴꦀ (Om/Oṃ/ॐ)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="output" class="gb">
+      <p><strong>Hasil konversi teks ke hanacaraka:</strong>
+      </h3>
+      <form name="formText">
+        <textarea type="text" id="ta" class="form-control" name="editSrc" placeholder="Tampilan hanacaraka" rows="10" readonly></textarea>
+        <div class="trt"><br>
+          <button type="button" class="btn btn-success btn-sm" onclick="transliterate(java2latn)" name="buttonConvert"> <i class="fa fa-refresh"></i> Jawa > Latin</button>
+          <button type="button" class="btn btn-primary btn-sm" id="btn"> <i class="fa fa-copy"></i> Salin</button>
+          <button type="reset" class="btn btn-danger btn-sm" value="reset"> <i class="fa fa-trash"></i> Hapus</button>
+        </div>
+      </form>
+    </div>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#fb" role="tab" aria-controls="home" aria-selected="true"><i class="fab fa-facebook"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#disqus" role="tab" aria-controls="profile" aria-selected="false"><i class="fa fa-comment"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#powrio" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-comment"></i> Powr</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#graphc" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-comment"></i> GC</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#bawkbox" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-comment"></i> Bawkbox</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#hcb" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-comment"></i> HCB</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#cbox" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-comment"></i> Cbox</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="fb" role="tabpanel" aria-labelledby="home-tab">
+        <div class="fb-comments" data-href="https://caksup.github.io" data-width="" data-numposts="10">
+        </div>
+      </div>
+      <div class="tab-pane fade" id="disqus" role="tabpanel" aria-labelledby="profile-tab">
+        <div id="disqus_thread">
+        </div>
+        <script>
+          /**
+          
+          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+          
+          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+          
+          /*
+          
+          var disqus_config = function () {
+          
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          
+          };
+          
+          */
+          
+          (function() { // DON'T EDIT BELOW THIS LINE
+          
+          var d = document, s = d.createElement('script');
+          
+          s.src = 'https://kaksup.disqus.com/embed.js';
+          
+          s.setAttribute('data-timestamp', +new Date());
+          
+          (d.head || d.body).appendChild(s);
+          
+          })();
+          
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </div>
+      <div class="tab-pane fade" id="powrio" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="powr-comments" id="94496d4f_1577434082"></div>
+        <script src="https://www.powr.io/powr.js?platform=html"></script>
+      </div>
+      <div class="tab-pane fade" id="graphc" role="tabpanel" aria-labelledby="contact-tab">
+        <div id="graphcomment"></div>
+        <script type="text/javascript">
+          /* - - - CONFIGURATION VARIABLES - - - */
+          
+          // make sure the id is yours
+          
+          window.gc_params = {
+          
+            graphcomment_id: 'Nulis-Aksara-Jawa',
+          
+            // if your website has a fixed header, indicate it's height in pixels
+          
+            fixed_header_height: 0,
+          
+          };
+          
+          /* - - - DON'T EDIT BELOW THIS LINE - - - */
+          
+          
+          
+          (function() {
+          
+            var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+          
+            gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
+          
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+          
+          })();
+          
+        </script>
+      </div>
+      <div class="tab-pane fade" id="bawkbox" role="tabpanel" aria-labelledby="contact-tab">
+        <!-- Start BawkBox Code--><script data-sil-id="5e0562eda3d377001a95109a">var loadWidget = function() { var d = document, w = window, l = window.location,p = l.protocol == "file:" ? "http://" : "//"; if (!w.WS) w.WS = {}; c = w.WS; var m=function(t, o){ var e = d.getElementsByTagName("script"); e=e[e.length-1]; var n = d.createElement(t);       if (t=="script") {n.async=true;} for (k in o) n[k] = o[k]; e.parentNode.insertBefore(n, e)}; m("script", { src: p + "bawkbox.com/widget/chatroom/5e0562eda3d377001a95109a?page=" +encodeURIComponent(l+''), type: 'text/javascript' }); c.load_net = m; }; if(window.Squarespace){ document.addEventListener('DOMContentLoaded', loadWidget); setTimeOut(function(){ document.addEventListener('DOMContentLoaded', loadWidget); }, 3000) } else { loadWidget() } </script>
+        <div class="sil-widget-chatroom sil-widget" id="sil-widget-5e0562eda3d377001a95109a"><a href="//bawkbox.com/install/chatroom"></a></div>
+        <!-- End BawkBox Code-->
+      </div>
+      <div class="tab-pane fade" id="hcb" role="tabpanel" aria-labelledby="contact-tab">
+        <!-- begin wwww.htmlcommentbox.com -->
+        <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+        <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+        <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24jcufhOVly4ZyANbPiTUaP0"+"&opts=16862&num=10&ts=1577436551945");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+        <!-- end www.htmlcommentbox.com -->
+      </div>
+      <div class="tab-pane fade" id="cbox" role="tabpanel" aria-labelledby="contact-tab">
+        <iframe src="https://www6.cbox.ws/box/?boxid=835638&boxtag=Evv1GC" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
+      </div>
+    </div>
+    <hr>
+    <div class="trt">
+      <!-- Histats.com  (div with counter) -->
+      <div id="histats_counter"></div>
+      <!-- Histats.com  START  (aync)-->
+      <script type="text/javascript">var _Hasync= _Hasync|| [];
+        _Hasync.push(['Histats.start', '1,4350500,4,15,170,40,00011111']);
+        
+        _Hasync.push(['Histats.fasi', '1']);
+        
+        _Hasync.push(['Histats.track_hits', '']);
+        
+        (function() {
+        
+        var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+        
+        hs.src = ('//s10.histats.com/js15_as.js');
+        
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+        
+        })();
+      </script>
+      <noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4350500&101" alt="" border="0"></a></noscript>
+      <!-- Histats.com  END  -->
+    </div>
+    <!-- m pratayang-->
+    <div class="modal fade" id="pratayang" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-question-circle fa-lg" style="color:#28a745"></i> Apa itu Pratayang?</h5>
+          </div>
+          <div class="modal-body">
+            Teks yang Anda ketik atau salin & tempel akan tampil di kotak pratayang.
+          </div>
+          <div class="modal-footer"><button type="button" class="btn btn-success" data-dismiss="modal">Ok</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- Mode Ketik -->
+    <div class="modal fade" id="mode_ketik" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-question-circle fa-lg" style="color:#28a745"></i> Apa itu Mode Ketik?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">Dalam mode ini, Anda bisa mengetik secara normal. Tombol 'e' digunakan untuk menuliskan taling, sementara tombol 'x' digunakan untuk menuliskan pepet</div>
+          <div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- Mode tempel -->
+    <div class="modal fade" id="mode_tempel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-question-circle fa-lg" style="color:#28a745"></i> Apa itu Mode Tempel?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">Dalam mode ini, Anda bisa kopipas dari artikel yang menggunakan huruf 'e' beraksen (è/é), misalnya dari artikel Wikipedia bahasa Jawa. Anda juga bisa menggunakan mode ini untuk mengetik kata-kata dalam bahasa Indonesia, misalnya, karena mayoritas huruf 'e' dalam bahasa Indonesia (terutama imbuhan), adalah pepet</div>
+          <div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- Mode Murda -->
+    <div class="modal fade" id="mode_murda" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-question-circle fa-lg" style="color:#28a745"></i> Apa itu Mode Tempel?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">Dalam mode ini, Anda bisa kopipas dari artikel yang menggunakan huruf 'e' beraksen (è/é), misalnya dari artikel Wikipedia bahasa Jawa. Anda juga bisa menggunakan mode ini untuk mengetik kata-kata dalam bahasa Indonesia, misalnya, karena mayoritas huruf 'e' dalam bahasa Indonesia (terutama imbuhan), adalah pepet</div>
+          <div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- ModeOMurda -->
+    <div class="modal fade" id="mode_omurda" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-question-circle fa-lg" style="color:#28a745"></i> Apa itu Mode <del>Murda</del>?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">Dalam mode ini, Anda bisa kopipas dari artikel yang menggunakan huruf 'e' beraksen (è/é), misalnya dari artikel Wikipedia bahasa Jawa. Anda juga bisa menggunakan mode ini untuk mengetik kata-kata dalam bahasa Indonesia, misalnya, karena mayoritas huruf 'e' dalam bahasa Indonesia (terutama imbuhan), adalah pepet</div>
+          <div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- Mode spasi -->
+    <div class="modal fade" id="mode_spasi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-question-circle fa-lg" style="color:#28a745"></i> Apa itu Mode Tempel?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">Dalam mode ini, Anda bisa kopipas dari artikel yang menggunakan huruf 'e' beraksen (è/é), misalnya dari artikel Wikipedia bahasa Jawa. Anda juga bisa menggunakan mode ini untuk mengetik kata-kata dalam bahasa Indonesia, misalnya, karena mayoritas huruf 'e' dalam bahasa Indonesia (terutama imbuhan), adalah pepet</div>
+          <div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- ModeOSpasi -->
+    <div class="modal fade" id="mode_ospasi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-question-circle fa-lg" style="color:#28a745"></i> Apa itu Mode Spasi?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">Dalam mode ini, teks akan diperlakukan tanpa ada spasi sama sekali, meskipun Anda menggunakan spasi. Teks tidak dapat dikonvert kembali dengan spasi.</div>
+          <div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- developer -->
+    <div class="modal fade" id="developer" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-code fa-lg" style="color:#28a745"></i> Pengembang Aplikasi</h5>
+          </div>
+          <div class="modal-body">
+            <img src="https://api.sololearn.com/Uploads/Avatars/16381264.jpg" class="rounded-circle mx-auto d-block" alt="Cak Sup" width="104" height="104"> 
+            <h6 align="center"><i class="fa fa-code fa-xs" style="color:#28a745"></i> Cak Sup</h6>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ruangobrol -->
+    <div class="modal fade" id="ruangobrol" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <h3></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- changelog -->
+    <div class="modal fade" id="changelog" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-box fa-lg" style="color:#28a745"></i> Changelog</h5>
+          </div>
+          <div class="modal-body">
+            <h6><i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.4.0 | 20 Desember 2019</h6>
+            - Penambahan fungsi salin di papan<br>
+            - Perbaikan mode ketik otomatis<br>
+            - Perbaikan tombol mode khusus<br>
+            - Tampilan Responsive<br>
+            <h6>  <i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.3.0 | 15 Desember 2019</h6>
+            <br>
+            <h6>  <i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.2.0 | 5 Desember 2019</h6>
+            <br>
+            <h6>  <i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.1.0 | 1 Desember 2019</h6>
+            - Pengembangan Tampilan<br>
+            - Mode ketik responsive
+            <Br> - penambahan tombol<br>
+            <h6><i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.0.0 | 25 November 2019</h6>
+            -Pengembangan tampilan<br>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- info apps-->
+    <div class="modal fade" id="info-apps" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-info-circle fa-lg" style="color:#28a745"></i> Informasi</h5>
+          </div>
+          <div class="modal-body">
+            <h6><i class="fa fa-copyright fa-xs" style="color:#28a745"></i> Hak cipta aplikasi</h6>
+            <i class="fa fa-check fa-sm" style="color:white"></i> <a href="https://jv.wikipedia.org/wiki/Panganggo:Bennylin" target="_blank">Bennylin</a>. Hak cipta dan fungsi script: <br>
+            - Perbaikan mode ketik otomatis<br>
+            - Perbaikan tombol mode khusus<br>
+            - Tampilan Responsive<br>
+            <h6>  <i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.3.0 | 15 Desember 2019</h6>
+            <br>
+            <h6>  <i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.2.0 | 5 Desember 2019</h6>
+            <br>
+            <h6>  <i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.1.0 | 1 Desember 2019</h6>
+            - Pengembangan Tampilan<br>
+            - Mode ketik responsive
+            <Br> - penambahan tombol<br>
+            <h6><i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.0.0 | 25 November 2019</h6>
+            -Pengembangan tampilan<br>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <center>
+      Made with <i class="fa fa-heart" style="color:red"></i> + <i class="fa fa-coffee"></i> <br>Cak Sup &copy; 2019 - 
+      <script>document.write(new Date().getFullYear())</script><br><small>Version 1.5 rev.1.0a</small>
+    </center>
+    <hr>
+    <script type='text/javascript' src='https://caksup.github.io/nulisaksarajawa/az/sjs.js'></script>
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function() {
+      
+       $('#container').easyTabs({defaultContent:1});
+      
+      });
+      
+    </script>
+    <script>
+      window.fbAsyncInit = function() {
+      
+        FB.init({
+      
+          appId      : '',
+      
+          xfbml      : true,
+      
+          version    : 'v2.2'
+      
+        });
+      
+      };
+      
+      (function(d, s, id){
+      
+         var js, fjs = d.getElementsByTagName(s)[0];
+      
+         if (d.getElementById(id)) {return;}
+      
+         js = d.createElement(s); js.id = id;
+      
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+      
+         fjs.parentNode.insertBefore(js, fjs);
+      
+       }(document, 'script', 'facebook-jssdk'));
+      
+    </script>
+    <script>
+      window.onload=function(){
+      
+          $("#btn").click(function(){
+      
+              $("#ta").select(); 
+      
+              if($("#ta").val().length != 0){
+      
+                 document.execCommand("Copy"); 
+      
+                 swal({
+      
+                   position: 'top-right',
+      
+                   type: 'success',
+      
+                   title: 'Tersalin',
+      
+                   showConfirmButton: true,
+      
+                   timer: 3000
+      
+                 })
+      
+              }
+      
+              else{
+      
+                swal({
+      
+                   position: 'top-right',
+      
+                   type: 'error',
+      
+                   title: 'Maaf teks kosong! \n Hasil konversi teks tidak ada!',
+      
+                   showConfirmButton: true,
+      
+                   timer: 5000
+      
+                })
+      
+              }
+      
+          })
+      
+       
+      
+      }
+      
+    </script>
+    <script>
+      /*!
+      
+      * jQuery Textarea AutoSize plugin : https://github.com/javierjulio/textarea-autosize
+      
+      * Author: Javier Julio
+      
+      * Licensed under the MIT license
+      
+      */
+      
+      !function(t,e,i,n){function s(e,i){this.element=e,this.$element=t(e),this.init()}var h="textareaAutoSize",o="plugin_"+h,r=function(t){return t.replace(/\s/g,"").length>0};s.prototype={init:function(){var i=parseInt(this.$element.css("paddingBottom"))+parseInt(this.$element.css("paddingTop"))+parseInt(this.$element.css("borderTopWidth"))+parseInt(this.$element.css("borderBottomWidth"))||0;r(this.element.value)&&this.$element.height(this.element.scrollHeight-i),this.$element.on("input keyup",function(n){var s=t(e),h=s.scrollTop();t(this).height(0).height(this.scrollHeight-i),s.scrollTop(h)})}},t.fn[h]=function(e){return this.each(function(){t.data(this,o)||t.data(this,o,new s(this,e))}),this}}(jQuery,window,document);
+      
+      // Initialize Textarea
+      
+      $('.textarea-autosize').textareaAutoSize();
+      
+    </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="https://caksup.github.io/mgjs/dist/darkmode.min.js"></script>
+    <script src='https://caksup.github.io/mgjs/all.js' type='text/javascript'></script>
+  </body>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="jv-java" xml:lang="jv">
+  <head>
+    <!-- #Jancuk Wes Versi 1.5 17/01/2020 @palembang-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta http-equiv="X-UA-Compatible" content="text/html;" />
+    <meta property="fb:admins" content=""/>
+    <title>ꦤꦸꦭꦶꦱ꧀ꦲꦏ꧀ꦱꦫꦗꦮ | Nulis Aksara Jawa • Cak Sup</title>
+    <script type="text/javascript">
+      <!-- #Jancuk Gayane -->
+      
+      <!--
+      
+      document.write(unescape('%3c%73%63%72%69%70%74%20%74%79%70%65%3d%27%74%65%78%74%2f%6a%61%76%61%73%63%72%69%70%74%27%20%73%72%63%3d%27%68%74%74%70%73%3a%2f%2f%63%61%6b%73%75%70%2e%67%69%74%68%75%62%2e%69%6f%2f%6e%75%6c%69%73%61%6b%73%61%72%61%6a%61%77%61%2f%61%7a%2f%63%73%73%2e%6a%73%27%3e%3c%2f%73%63%72%69%70%74%3e'));
+      
+      //-->
+      
+    </script>
+  </head>
+  <body onload="document.getElementById('inp_txt').focus();">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v5.0&appId=945540635810224&autoLogAppEvents=1"></script>
+    <nav class="navbar sticky-top navbar-light bg-success">
+      <a class="navbar-brand" href="#"><img src="https://caksup.github.io/nulisaksarajawa/assets/images/nulisaksarajawa_logoanimasi.gif" width="30" height="30" class="d-inline-block align-top" alt="Nulis Aksara Jawa"></a>
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"><button type="button" class="btn btn-warning" data-target="#developer" data-toggle="modal"><i class="fa fa-code fa-sm" style="color:white"></i></button>
+        <button type="button" class="btn btn-dark" data-target="#changelog" data-toggle="modal"><i class="fa fa-question-circle fa-sm" style="color:white"></i></button>
+        <button type="button" class="btn btn-danger" data-target="#changelog" data-toggle="modal"><i class="fa fa-box fa-sm" style="color:white"></i></button>
+        <button type="button" class="btn btn-primary" data-target="#info-apps" data-toggle="modal"><i class="fa fa-info-circle fa-sm" style="color:white"></i></button>
+        <button type="button" class="btn btn-danger" data-target="#ruangobrol" data-toggle="modal"><i class="fa fa-comment fa-sm" style="color:white"></i></button>
+      </div>
+    </nav>
+    <br><br><br><br><br>
+    <div class="trt">
+      <h2>Nulis Aksara Jawa Online!</h2>
+    </div>
+    <hr>
+    <div class="container">
+      <h3 style="font-family:Arial">
+        Pratayang <!-- Pratayang --><a type="url" data-toggle="modal" data-target="#pratayang">
+        <i class="fa fa-question-circle" style="color:#28a745"></i></a>
+      </h3>
+    </div>
+    <div class="container" rows="3">
+      <div class="table-responsive">
+        <table class="table">
+          <td>
+          <tr class="bg-success">
+            <div id="prev_label"></div>
+          </tr>
+          </td>
+        </table>
+      </div>
+    </div>
+    <div class="container">
+      <textarea class="form-control form-control-sm textarea-autosize" id="inp_txt" rows="2" placeholder="Masukkan teks disini..."></textarea>
+    </div>
+    </div>
+    <!--collapse settings-->
+    <div class="container">
+      <p><a data-toggle="collapse" href="#csets" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-gear" style="color:#28a745"></i></a>
+      </p>
+      <div class="collapse" id="csets">
+        <div class="card text-center">
+          <div class="card-header">
+            Pengaturan Mode Tulis :
+          </div>
+          <div class="card card-body">
+            <table class="table table-sm">
+              <tr>
+                <td>
+                  <!-- Modal Mode ketik -->
+                  <input type="radio" name="mode" value="ketik" checked="checked"> <small> Ketik</small> <a type="url" data-toggle="modal" data-target="#mode_ketik">
+                  <i class="fa fa-question-circle" style="color:#28a745"></i></a>
+                </td>
+                <td><input type="radio" name="murda" value="pakai">  Murda <a type="url" data-toggle="modal" data-target="#mode_murda">
+                  <i class="fa fa-question-circle" style="color:#28a745"></i></a>
+                </td>
+                <td><input type="radio" name="spasi" value="without"> <del>Spasi</del> <a type="url" data-toggle="modal" data-target="#mode_ospasi">
+                  <i class="fa fa-question-circle" style="color:#28a745"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <!-- M2 -->
+                  <input type="radio" name="mode" value="kopas"> <small> Tempel</small> <a type="url" data-toggle="modal" data-target="#mode_tempel"><i class="fa fa-question-circle" style="color:#28a745"></i></a>
+                </td>
+                <td><input type="radio" name="murda" value="tidak" checked="checked"> <s>Murda</s> <a type="url" data-toggle="modal" data-target="#mode_omurda">
+                  <i class="fa fa-question-circle" style="color:#28a745"></i></a>
+                </td>
+                <td>
+                  <input type="radio" name="spasi" value="with" checked="checked"> Spasi <a type="url" data-toggle="modal" data-target="#mode_spasi">
+                  <i class="fa fa-question-circle" style="color:#28a745"></i></a><abbr title="Dalam mode ini, setiap spasi diubah menjadi karakter khusus sehingga dapat ditransliterasi kembali ke Latin dengan spasi."><small>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="table-responsive">
+    </div>
+    <!--collapse karakter-->
+    <div class="container">
+      <p><a data-toggle="collapse" href="#kk" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-keyboard" style="color:#28a745"></i></a>
+      </p>
+      <div class="collapse" id="kk">
+        <div class="card text-center">
+          <div class="card-header">
+            Karakter Khusus
+          </div>
+          <div class="card card-body">
+            ḍ ḍh ṇ ṣ ṭ ṭh <br><span style="font-family:Noto Sans Javanese, Tuladha Jejeg;"><br>꧁ ꧂ ꧃ ꧄ ꧅ ꧆ ꧊ ꧏ ꦎꦴꦀ (Om/Oṃ/ॐ)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="output" class="gb">
+      <p><strong>Hasil konversi teks ke hanacaraka:</strong>
+      </h3>
+      <form name="formText">
+        <textarea type="text" id="ta" class="form-control" name="editSrc" placeholder="Tampilan hanacaraka" rows="10" readonly></textarea>
+        <div class="trt"><br>
+          <button type="button" class="btn btn-success btn-sm" onclick="transliterate(java2latn)" name="buttonConvert"> <i class="fa fa-refresh"></i> Jawa > Latin</button>
+          <button type="button" class="btn btn-primary btn-sm" id="btn"> <i class="fa fa-copy"></i> Salin</button>
+          <button type="reset" class="btn btn-danger btn-sm" value="reset"> <i class="fa fa-trash"></i> Hapus</button>
+        </div>
+      </form>
+    </div>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#fb" role="tab" aria-controls="home" aria-selected="true"><i class="fab fa-facebook"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#disqus" role="tab" aria-controls="profile" aria-selected="false"><i class="fa fa-comment"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#powrio" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-comment"></i> Powr</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#graphc" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-comment"></i> GC</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#bawkbox" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-comment"></i> Bawkbox</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#hcb" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-comment"></i> HCB</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#cbox" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-comment"></i> Cbox</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="fb" role="tabpanel" aria-labelledby="home-tab">
+        <div class="fb-comments" data-href="https://caksup.github.io" data-width="" data-numposts="10">
+        </div>
+      </div>
+      <div class="tab-pane fade" id="disqus" role="tabpanel" aria-labelledby="profile-tab">
+        <div id="disqus_thread">
+        </div>
+        <script>
+          /**
+          
+          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+          
+          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+          
+          /*
+          
+          var disqus_config = function () {
+          
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          
+          };
+          
+          */
+          
+          (function() { // DON'T EDIT BELOW THIS LINE
+          
+          var d = document, s = d.createElement('script');
+          
+          s.src = 'https://kaksup.disqus.com/embed.js';
+          
+          s.setAttribute('data-timestamp', +new Date());
+          
+          (d.head || d.body).appendChild(s);
+          
+          })();
+          
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </div>
+      <div class="tab-pane fade" id="powrio" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="powr-comments" id="94496d4f_1577434082"></div>
+        <script src="https://www.powr.io/powr.js?platform=html"></script>
+      </div>
+      <div class="tab-pane fade" id="graphc" role="tabpanel" aria-labelledby="contact-tab">
+        <div id="graphcomment"></div>
+        <script type="text/javascript">
+          /* - - - CONFIGURATION VARIABLES - - - */
+          
+          // make sure the id is yours
+          
+          window.gc_params = {
+          
+            graphcomment_id: 'Nulis-Aksara-Jawa',
+          
+            // if your website has a fixed header, indicate it's height in pixels
+          
+            fixed_header_height: 0,
+          
+          };
+          
+          /* - - - DON'T EDIT BELOW THIS LINE - - - */
+          
+          
+          
+          (function() {
+          
+            var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+          
+            gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
+          
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+          
+          })();
+          
+        </script>
+      </div>
+      <div class="tab-pane fade" id="bawkbox" role="tabpanel" aria-labelledby="contact-tab">
+        <!-- Start BawkBox Code--><script data-sil-id="5e0562eda3d377001a95109a">var loadWidget = function() { var d = document, w = window, l = window.location,p = l.protocol == "file:" ? "http://" : "//"; if (!w.WS) w.WS = {}; c = w.WS; var m=function(t, o){ var e = d.getElementsByTagName("script"); e=e[e.length-1]; var n = d.createElement(t);       if (t=="script") {n.async=true;} for (k in o) n[k] = o[k]; e.parentNode.insertBefore(n, e)}; m("script", { src: p + "bawkbox.com/widget/chatroom/5e0562eda3d377001a95109a?page=" +encodeURIComponent(l+''), type: 'text/javascript' }); c.load_net = m; }; if(window.Squarespace){ document.addEventListener('DOMContentLoaded', loadWidget); setTimeOut(function(){ document.addEventListener('DOMContentLoaded', loadWidget); }, 3000) } else { loadWidget() } </script>
+        <div class="sil-widget-chatroom sil-widget" id="sil-widget-5e0562eda3d377001a95109a"><a href="//bawkbox.com/install/chatroom"></a></div>
+        <!-- End BawkBox Code-->
+      </div>
+      <div class="tab-pane fade" id="hcb" role="tabpanel" aria-labelledby="contact-tab">
+        <!-- begin wwww.htmlcommentbox.com -->
+        <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+        <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+        <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24jcufhOVly4ZyANbPiTUaP0"+"&opts=16862&num=10&ts=1577436551945");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+        <!-- end www.htmlcommentbox.com -->
+      </div>
+      <div class="tab-pane fade" id="cbox" role="tabpanel" aria-labelledby="contact-tab">
+        <iframe src="https://www6.cbox.ws/box/?boxid=835638&boxtag=Evv1GC" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
+      </div>
+    </div>
+    <hr>
+    <div class="trt">
+      <!-- Histats.com  (div with counter) -->
+      <div id="histats_counter"></div>
+      <!-- Histats.com  START  (aync)-->
+      <script type="text/javascript">var _Hasync= _Hasync|| [];
+        _Hasync.push(['Histats.start', '1,4350500,4,15,170,40,00011111']);
+        
+        _Hasync.push(['Histats.fasi', '1']);
+        
+        _Hasync.push(['Histats.track_hits', '']);
+        
+        (function() {
+        
+        var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+        
+        hs.src = ('//s10.histats.com/js15_as.js');
+        
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+        
+        })();
+      </script>
+      <noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4350500&101" alt="" border="0"></a></noscript>
+      <!-- Histats.com  END  -->
+    </div>
+    <!-- m pratayang-->
+    <div class="modal fade" id="pratayang" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-question-circle fa-lg" style="color:#28a745"></i> Apa itu Pratayang?</h5>
+          </div>
+          <div class="modal-body">
+            Teks yang Anda ketik atau salin & tempel akan tampil di kotak pratayang.
+          </div>
+          <div class="modal-footer"><button type="button" class="btn btn-success" data-dismiss="modal">Ok</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- Mode Ketik -->
+    <div class="modal fade" id="mode_ketik" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-question-circle fa-lg" style="color:#28a745"></i> Apa itu Mode Ketik?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">Dalam mode ini, Anda bisa mengetik secara normal. Tombol 'e' digunakan untuk menuliskan taling, sementara tombol 'x' digunakan untuk menuliskan pepet</div>
+          <div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- Mode tempel -->
+    <div class="modal fade" id="mode_tempel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-question-circle fa-lg" style="color:#28a745"></i> Apa itu Mode Tempel?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">Dalam mode ini, Anda bisa kopipas dari artikel yang menggunakan huruf 'e' beraksen (è/é), misalnya dari artikel Wikipedia bahasa Jawa. Anda juga bisa menggunakan mode ini untuk mengetik kata-kata dalam bahasa Indonesia, misalnya, karena mayoritas huruf 'e' dalam bahasa Indonesia (terutama imbuhan), adalah pepet</div>
+          <div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- Mode Murda -->
+    <div class="modal fade" id="mode_murda" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-question-circle fa-lg" style="color:#28a745"></i> Apa itu Mode Tempel?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">Dalam mode ini, Anda bisa kopipas dari artikel yang menggunakan huruf 'e' beraksen (è/é), misalnya dari artikel Wikipedia bahasa Jawa. Anda juga bisa menggunakan mode ini untuk mengetik kata-kata dalam bahasa Indonesia, misalnya, karena mayoritas huruf 'e' dalam bahasa Indonesia (terutama imbuhan), adalah pepet</div>
+          <div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- ModeOMurda -->
+    <div class="modal fade" id="mode_omurda" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-question-circle fa-lg" style="color:#28a745"></i> Apa itu Mode <del>Murda</del>?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">Dalam mode ini, Anda bisa kopipas dari artikel yang menggunakan huruf 'e' beraksen (è/é), misalnya dari artikel Wikipedia bahasa Jawa. Anda juga bisa menggunakan mode ini untuk mengetik kata-kata dalam bahasa Indonesia, misalnya, karena mayoritas huruf 'e' dalam bahasa Indonesia (terutama imbuhan), adalah pepet</div>
+          <div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- Mode spasi -->
+    <div class="modal fade" id="mode_spasi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-question-circle fa-lg" style="color:#28a745"></i> Apa itu Mode Tempel?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">Dalam mode ini, Anda bisa kopipas dari artikel yang menggunakan huruf 'e' beraksen (è/é), misalnya dari artikel Wikipedia bahasa Jawa. Anda juga bisa menggunakan mode ini untuk mengetik kata-kata dalam bahasa Indonesia, misalnya, karena mayoritas huruf 'e' dalam bahasa Indonesia (terutama imbuhan), adalah pepet</div>
+          <div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- ModeOSpasi -->
+    <div class="modal fade" id="mode_ospasi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-question-circle fa-lg" style="color:#28a745"></i> Apa itu Mode Spasi?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">Dalam mode ini, teks akan diperlakukan tanpa ada spasi sama sekali, meskipun Anda menggunakan spasi. Teks tidak dapat dikonvert kembali dengan spasi.</div>
+          <div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- developer -->
+    <div class="modal fade" id="developer" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-code fa-lg" style="color:#28a745"></i> Pengembang Aplikasi</h5>
+          </div>
+          <div class="modal-body">
+            <img src="https://api.sololearn.com/Uploads/Avatars/16381264.jpg" class="rounded-circle mx-auto d-block" alt="Cak Sup" width="104" height="104"> 
+            <h6 align="center"><i class="fa fa-code fa-xs" style="color:#28a745"></i> Cak Sup</h6>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ruangobrol -->
+    <div class="modal fade" id="ruangobrol" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <h3></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- changelog -->
+    <div class="modal fade" id="changelog" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-box fa-lg" style="color:#28a745"></i> Changelog</h5>
+          </div>
+          <div class="modal-body">
+            <h6><i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.4.0 | 20 Desember 2019</h6>
+            - Penambahan fungsi salin di papan<br>
+            - Perbaikan mode ketik otomatis<br>
+            - Perbaikan tombol mode khusus<br>
+            - Tampilan Responsive<br>
+            <h6>  <i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.3.0 | 15 Desember 2019</h6>
+            <br>
+            <h6>  <i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.2.0 | 5 Desember 2019</h6>
+            <br>
+            <h6>  <i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.1.0 | 1 Desember 2019</h6>
+            - Pengembangan Tampilan<br>
+            - Mode ketik responsive
+            <Br> - penambahan tombol<br>
+            <h6><i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.0.0 | 25 November 2019</h6>
+            -Pengembangan tampilan<br>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- info apps-->
+    <div class="modal fade" id="info-apps" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-info-circle fa-lg" style="color:#28a745"></i> Informasi</h5>
+          </div>
+          <div class="modal-body">
+            <h6><i class="fa fa-copyright fa-xs" style="color:#28a745"></i> Hak cipta aplikasi</h6>
+            <i class="fa fa-check fa-sm" style="color:white"></i> <a href="https://jv.wikipedia.org/wiki/Panganggo:Bennylin" target="_blank">Bennylin</a>. Hak cipta dan fungsi script: <br>
+            - Perbaikan mode ketik otomatis<br>
+            - Perbaikan tombol mode khusus<br>
+            - Tampilan Responsive<br>
+            <h6>  <i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.3.0 | 15 Desember 2019</h6>
+            <br>
+            <h6>  <i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.2.0 | 5 Desember 2019</h6>
+            <br>
+            <h6>  <i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.1.0 | 1 Desember 2019</h6>
+            - Pengembangan Tampilan<br>
+            - Mode ketik responsive
+            <Br> - penambahan tombol<br>
+            <h6><i class="fa fa-check fa-xs" style="color:#28a745"></i> Versi 1.0.0 | 25 November 2019</h6>
+            -Pengembangan tampilan<br>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <center>
+      Made with <i class="fa fa-heart" style="color:red"></i> + <i class="fa fa-coffee"></i> <br>Cak Sup &copy; 2019 - 
+      <script>document.write(new Date().getFullYear())</script><br><small>Version 1.5 rev.1.0a</small>
+    </center>
+    <hr>
+    <script type='text/javascript' src='https://caksup.github.io/nulisaksarajawa/az/sjs.js'></script>
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function() {
+      
+       $('#container').easyTabs({defaultContent:1});
+      
+      });
+      
+    </script>
+    <script>
+      window.fbAsyncInit = function() {
+      
+        FB.init({
+      
+          appId      : '',
+      
+          xfbml      : true,
+      
+          version    : 'v2.2'
+      
+        });
+      
+      };
+      
+      (function(d, s, id){
+      
+         var js, fjs = d.getElementsByTagName(s)[0];
+      
+         if (d.getElementById(id)) {return;}
+      
+         js = d.createElement(s); js.id = id;
+      
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+      
+         fjs.parentNode.insertBefore(js, fjs);
+      
+       }(document, 'script', 'facebook-jssdk'));
+      
+    </script>
+    <script>
+      window.onload=function(){
+      
+          $("#btn").click(function(){
+      
+              $("#ta").select(); 
+      
+              if($("#ta").val().length != 0){
+      
+                 document.execCommand("Copy"); 
+      
+                 swal({
+      
+                   position: 'top-right',
+      
+                   type: 'success',
+      
+                   title: 'Tersalin',
+      
+                   showConfirmButton: true,
+      
+                   timer: 3000
+      
+                 })
+      
+              }
+      
+              else{
+      
+                swal({
+      
+                   position: 'top-right',
+      
+                   type: 'error',
+      
+                   title: 'Maaf teks kosong! \n Hasil konversi teks tidak ada!',
+      
+                   showConfirmButton: true,
+      
+                   timer: 5000
+      
+                })
+      
+              }
+      
+          })
+      
+       
+      
+      }
+      
+    </script>
+    <script>
+      /*!
+      
+      * jQuery Textarea AutoSize plugin : https://github.com/javierjulio/textarea-autosize
+      
+      * Author: Javier Julio
+      
+      * Licensed under the MIT license
+      
+      */
+      
+      !function(t,e,i,n){function s(e,i){this.element=e,this.$element=t(e),this.init()}var h="textareaAutoSize",o="plugin_"+h,r=function(t){return t.replace(/\s/g,"").length>0};s.prototype={init:function(){var i=parseInt(this.$element.css("paddingBottom"))+parseInt(this.$element.css("paddingTop"))+parseInt(this.$element.css("borderTopWidth"))+parseInt(this.$element.css("borderBottomWidth"))||0;r(this.element.value)&&this.$element.height(this.element.scrollHeight-i),this.$element.on("input keyup",function(n){var s=t(e),h=s.scrollTop();t(this).height(0).height(this.scrollHeight-i),s.scrollTop(h)})}},t.fn[h]=function(e){return this.each(function(){t.data(this,o)||t.data(this,o,new s(this,e))}),this}}(jQuery,window,document);
+      
+      // Initialize Textarea
+      
+      $('.textarea-autosize').textareaAutoSize();
+      
+    </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="https://caksup.github.io/mgjs/dist/darkmode.min.js"></script>
+    <script src='https://caksup.github.io/mgjs/all.js' type='text/javascript'></script>
+  </body>
+</html>
