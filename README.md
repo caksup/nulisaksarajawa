@@ -12,10 +12,12 @@ Adalah media penulisan aksara jawa secara dalam jaringan.
 - [x] Versi 1.3
 - [x] Versi 1.4
 - [x] Versi 1.5
+- [0] Versi 1.6
+- [x] Versi 2.0 Release
 
-https://caksup.github.io/nulisaksarajawa
 
 
-[Nulis](http://)
+
+[**Demo**](https://caksup.github.io/nulisaksarajawa)
 
 ![Image](https://)
