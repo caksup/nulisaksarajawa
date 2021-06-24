@@ -1,4 +1,4 @@
-# Nulis Aksara Jawa
+# ⚡ Nulis Aksara Jawa
 Hanacaraka Daring
 Adalah media penulisan aksara jawa secara dalam jaringan.
 
@@ -21,3 +21,7 @@ Adalah media penulisan aksara jawa secara dalam jaringan.
 [**Demo**](https://caksup.github.io/nulisaksarajawa)
 
 ![Image](https://)
+
+# 📝 Built With:
+- Bootstrap 5
+- Bootstrap icons 1.4.0
