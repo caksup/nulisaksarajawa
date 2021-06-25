@@ -27,3 +27,9 @@ Adalah media penulisan aksara jawa secara dalam jaringan.
 # 📝 Built With:
 - Bootstrap 5
 - Bootstrap icons 1.4.0
+
+## Donasi
+- Paypal
+
+- Liberapay
+<noscript><a href="https://liberapay.com/caksup/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
