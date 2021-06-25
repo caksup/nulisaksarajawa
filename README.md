@@ -1,8 +1,10 @@
-# ⚡ Nulis Aksara Jawa
+# ⚡ Nulis Aksara Jawa • Cak Sup
+
 Hanacaraka Daring
 Adalah media penulisan aksara jawa secara dalam jaringan.
 
-[![HitCount](http://hits.dwyl.io/caksup/caksup/nulisaksarajawa.svg)](http://hits.dwyl.io/caksup/nulisaksarajawa)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcaksup%2Fnulisaksarajawa&count_bg=%2379C83D&title_bg=%23555555&icon=cliqz.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 
 - Changelog
