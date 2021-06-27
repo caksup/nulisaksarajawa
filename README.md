@@ -1,4 +1,4 @@
-# - Nulis Aksara Jawa
+# 📝 Nulis Aksara Jawa
 
 ## Hanacaraka Daring Adalah media penulisan aksara jawa secara daring. konversi dari teks ke hanacaraka atau sebaliknya.
 
@@ -38,14 +38,14 @@ Versi terbaru : 2.1
 
 ![Image](https://)
 
-# 📝 Built With:
+# 📇 Built With:
 - HTML5
 - CSS 3
 - Javascript
 - Github
 - Acode
 
-# Styling & Components :
+# 📚 Styling & Components :
 - Bootstrap 5
 - Facebook Comment
 - Histats
@@ -61,8 +61,11 @@ Versi terbaru : 2.1
 - animatecss
 - 
 
-## Donasi
+## 💸 Donasi
 - Paypal
 
+ <noscript><a href="https://www.paypal.com/paypalme/caksup"><img alt="Donate using Paypal" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"/></a></noscript>
+
 - Liberapay
+
 <noscript><a href="https://liberapay.com/caksup/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
