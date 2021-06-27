@@ -12,7 +12,7 @@ Fitur terbaru:
  
 modern, cepat dan ramah pengguna.
 Nulis Aksara Jawa ini saya kembangkan dari proyek Kak [Bennylin](https://bennylin.github.io/transliterasijawa/). yang sudah saya redisain atas izinnya.
-semua konyenyak menjadi responsif, 
+semua kontennya menjadi responsif.
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcaksup%2Fnulisaksarajawa&count_bg=%2379C83D&title_bg=%23555555&icon=cliqz.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
